@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aklVIptMmAZ+D134kh7aDwFHtlTGeL5KmbuCDCV8iJ0=",
+  "Hash": "GtpZv2L6mAg4G1/gw6hHrdnnnH2ttPHiHhwH4glpOR0=",
   "Source": "holaMundo.Server",
   "BasePath": "_content/holaMundo.Server",
   "Mode": "Default",
@@ -7475,12 +7475,12 @@
       "OriginalItemSpec": "wwwroot\\images\\icon-512.png"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\images\\imagespizzas.zip",
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\images\\logo.svg",
       "SourceId": "holaMundo.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "images/imagespizzas.zip",
+      "RelativePath": "images/logo.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7489,7 +7489,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\imagespizzas.zip"
+      "OriginalItemSpec": "wwwroot\\images\\logo.svg"
     },
     {
       "Identity": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\images\\pizzas\\bacon.jpg",
@@ -7626,6 +7626,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\pizzas\\salad.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\images\\pizza-slice-solid.svg",
+      "SourceId": "holaMundo.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/pizza-slice-solid.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pizza-slice-solid.svg"
     },
     {
       "Identity": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\index.html",
