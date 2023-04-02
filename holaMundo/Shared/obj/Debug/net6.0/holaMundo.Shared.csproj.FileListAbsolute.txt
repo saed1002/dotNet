@@ -1,0 +1,14 @@
+C:\Users\LENOVO\source\repos\holaMundo\holaMundo\Shared\bin\Debug\net6.0\holaMundo.Shared.deps.json
+C:\Users\LENOVO\source\repos\holaMundo\holaMundo\Shared\bin\Debug\net6.0\holaMundo.Shared.runtimeconfig.json
+C:\Users\LENOVO\source\repos\holaMundo\holaMundo\Shared\bin\Debug\net6.0\holaMundo.Shared.dll
+C:\Users\LENOVO\source\repos\holaMundo\holaMundo\Shared\bin\Debug\net6.0\holaMundo.Shared.pdb
+C:\Users\LENOVO\source\repos\holaMundo\holaMundo\Shared\obj\Debug\net6.0\holaMundo.Shared.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\holaMundo\holaMundo\Shared\obj\Debug\net6.0\holaMundo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\holaMundo\holaMundo\Shared\obj\Debug\net6.0\holaMundo.Shared.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\holaMundo\holaMundo\Shared\obj\Debug\net6.0\holaMundo.Shared.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\holaMundo\holaMundo\Shared\obj\Debug\net6.0\holaMundo.Shared.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\holaMundo\holaMundo\Shared\obj\Debug\net6.0\holaMundo.Shared.dll
+C:\Users\LENOVO\source\repos\holaMundo\holaMundo\Shared\obj\Debug\net6.0\refint\holaMundo.Shared.dll
+C:\Users\LENOVO\source\repos\holaMundo\holaMundo\Shared\obj\Debug\net6.0\holaMundo.Shared.pdb
+C:\Users\LENOVO\source\repos\holaMundo\holaMundo\Shared\obj\Debug\net6.0\holaMundo.Shared.genruntimeconfig.cache
+C:\Users\LENOVO\source\repos\holaMundo\holaMundo\Shared\obj\Debug\net6.0\ref\holaMundo.Shared.dll
