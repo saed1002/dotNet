@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "holaMundo.Server", "holaMun
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "holaMundo.Client", "holaMundo\Client\holaMundo.Client.csproj", "{9A2DC971-168C-46F9-95F9-1A49BBB52EA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "holaMundo.Shared", "holaMundo\Shared\holaMundo.Shared.csproj", "{253EB321-9810-49B2-8FB2-27160DF7C249}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "holaMundo.Shared", "holaMundo\Shared\holaMundo.Shared.csproj", "{253EB321-9810-49B2-8FB2-27160DF7C249}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

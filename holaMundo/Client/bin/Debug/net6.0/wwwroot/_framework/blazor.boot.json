@@ -206,15 +206,15 @@
       "mscorlib.dll": "sha256-AtjrcSyN9gleNjzHPZRVJVh6sNEX1FxRBHN\/ZN6Yt3Q=",
       "netstandard.dll": "sha256-\/CRbZZ6en3BoMsR5fhsJCTE9TYhik+E7KU+O9cBdC9c=",
       "System.Private.CoreLib.dll": "sha256-ftEeXsH4HQ3J6VlVJuI3mbfqZxGyNtYVxuIQD\/8waHw=",
-      "holaMundo.Shared.dll": "sha256-9pdsli8yaxeg87q+yzlcmLozw7BFiqGAEUs\/bjDdkkg=",
-      "holaMundo.Client.dll": "sha256-ipfKEkIXh615q\/9d6KINkLfb+K842KSwFrosAkU6nQA="
+      "holaMundo.Shared.dll": "sha256-J8hHB++7larXkDEY0DsjYcRkrxhrDUcEyWbQWmI53V0=",
+      "holaMundo.Client.dll": "sha256-YAPVuxqI71qAYU7SHpATkqZ0EZyiB51bu\/KUmHu6IfM="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "holaMundo.Shared.pdb": "sha256-309pVbU2+2sScUJG\/Il2JJU2nOeaRilKHC3p1I9B04E=",
-      "holaMundo.Client.pdb": "sha256-K\/jvik\/3DP5DRz46IwjchBVVGUAUyg5CXSvqlyUIK6k="
+      "holaMundo.Shared.pdb": "sha256-13VV1jG4nHFlKpXMEY+BBltR7qyxMcHpS1R+dyqlCCQ=",
+      "holaMundo.Client.pdb": "sha256-DmoZNzRNSYBMvQWa7n2guvTKruFYWpt6wpukerNTdXQ="
     },
     "runtime": {
       "dotnet.6.0.12.emhjuvmo4c.js": "sha256-qD0QxS71qYTQZMj+JDk0IXr28ewa+pSDzShFKSNkQ+0=",
