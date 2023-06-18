@@ -1002,11 +1002,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Shared\\holaMundo.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Source\\Repos\\dotNet\\holaMundo\\Shared\\holaMundo.Shared.csproj",
       "projectName": "holaMundo.Shared",
-      "projectPath": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Shared\\holaMundo.Shared.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\Source\\Repos\\dotNet\\holaMundo\\Shared\\holaMundo.Shared.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Shared\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\Source\\Repos\\dotNet\\holaMundo\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

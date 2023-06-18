@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d981jmChNakNjE1q7QT7tS8K3z7iVy1ps1VxqarUF2H2Zm8dR28ePWY6I8unnXrUA8BT6KwWm+FlrzX7jjrLEg==",
+  "dgSpecHash": "n/ub+rL604qMRPIe1T/UcfJVFsDKE2flBoul+Ju70Nrnx03KKjqRuWJtNUSV7Bvp0SPO8b86uku3muldeiMDYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\holaMundo.Client.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\holaMundo.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.11\\microsoft.aspnetcore.authorization.6.0.11.nupkg.sha512",

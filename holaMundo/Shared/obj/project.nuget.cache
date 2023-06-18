@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xUTmw1s+wPwChSqfsB4K8PJKAMKTwxEBlxQXNLwQpBB+0rm2q8xWoh7sEoabc28V0PNwTI3G8YD7WAmcva+jsQ==",
+  "dgSpecHash": "XzFPSslM8nZhKD86x4q+/ew62Jo7fPfgKZAWWpvDwnf9Y5b4ovwnEgpo/F3yQ4ZLZmnd6h3pwgQr2uO3zzRi9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Shared\\holaMundo.Shared.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Shared\\holaMundo.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.4\\microsoft.entityframeworkcore.7.0.4.nupkg.sha512",

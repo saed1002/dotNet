@@ -1,13 +1,32 @@
 ﻿@inherits LayoutComponentBase
 <div class="top-bar">
-	<a class="logo" href="">
-		<img src="images/logo.svg"/>
-	</a>
-	<NavLink href="" class="nav-tab" Match="NavLinkMatch.All">
-		<img src="images/pizza-slice-solid.svg"
-		<div>Elegir Pizza</div>
-	</NavLink>
+    <a class="logo" href="">
+        <img src="images/logo.png" />
+    </a>
+    <NavLink href="/" class="nav-tab" Match="NavLinkMatch.All">
+        <div>AutoSoporte</div>
+    </NavLink>
+    <NavLink href="/contact-us" class="nav-tab" Match="NavLinkMatch.All">
+        <div>Contacto</div>
+    </NavLink>
+    <NavLink href="/about" class="nav-tab" Match="NavLinkMatch.All">
+        <div>Acerca de</div>
+    </NavLink>
 </div>
-<div class="content">
-	@Body
+<div class="content" style="padding-bottom:42px">
+    @Body
 </div>
+
+<footer>
+    <div class="footer-bottom">
+        <p>copyright © <a href="#">Supporte Buzz</a> | 2023 </p>
+        <div class="footer-menu">
+            <ul class="f-menu">
+                <li><a href="">Home</a></li>
+                <li><NavLink href="/contact-us">Contacto</NavLink></li>
+                <li><NavLink href="/about">Acerca De</NavLink></li>
+            </ul>
+        </div>
+    </div>
+
+</footer>

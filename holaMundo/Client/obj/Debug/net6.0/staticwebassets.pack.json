@@ -1,115 +1,151 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\obj\\Debug\\net6.0\\build-gz\\D6nDZTi9.gz",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\obj\\Debug\\net6.0\\build-gz\\D6nDZTi9.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\css\\font\\quicksand-v8-latin-300.woff",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\css\\font\\quicksand-v8-latin-300.woff",
       "PackagePath": "staticwebassets\\css\\font\\quicksand-v8-latin-300.woff"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\css\\font\\quicksand-v8-latin-300.woff2",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\css\\font\\quicksand-v8-latin-300.woff2",
       "PackagePath": "staticwebassets\\css\\font\\quicksand-v8-latin-300.woff2"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\css\\font\\quicksand-v8-latin-500.woff",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\css\\font\\quicksand-v8-latin-500.woff",
       "PackagePath": "staticwebassets\\css\\font\\quicksand-v8-latin-500.woff"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\css\\font\\quicksand-v8-latin-500.woff2",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\css\\font\\quicksand-v8-latin-500.woff2",
       "PackagePath": "staticwebassets\\css\\font\\quicksand-v8-latin-500.woff2"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\css\\font\\quicksand-v8-latin-700.woff",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\css\\font\\quicksand-v8-latin-700.woff",
       "PackagePath": "staticwebassets\\css\\font\\quicksand-v8-latin-700.woff"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\css\\font\\quicksand-v8-latin-700.woff2",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\css\\font\\quicksand-v8-latin-700.woff2",
       "PackagePath": "staticwebassets\\css\\font\\quicksand-v8-latin-700.woff2"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\css\\font\\quicksand-v8-latin-regular.woff",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\css\\font\\quicksand-v8-latin-regular.woff",
       "PackagePath": "staticwebassets\\css\\font\\quicksand-v8-latin-regular.woff"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\css\\font\\quicksand-v8-latin-regular.woff2",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\css\\font\\quicksand-v8-latin-regular.woff2",
       "PackagePath": "staticwebassets\\css\\font\\quicksand-v8-latin-regular.woff2"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\css\\font\\quicksand.css",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\css\\font\\quicksand.css",
       "PackagePath": "staticwebassets\\css\\font\\quicksand.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\images\\icon-512.png",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\images\\icon-512.png",
       "PackagePath": "staticwebassets\\images\\icon-512.png"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\images\\logo.svg",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\images\\logo.svg",
       "PackagePath": "staticwebassets\\images\\logo.svg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\images\\pizza-slice-solid.svg",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\images\\pizza-slice-solid.svg",
       "PackagePath": "staticwebassets\\images\\pizza-slice-solid.svg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\images\\pizzas\\bacon.jpg",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\images\\pizzas\\bacon.jpg",
       "PackagePath": "staticwebassets\\images\\pizzas\\bacon.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\images\\pizzas\\cheese.jpg",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\images\\pizzas\\cheese.jpg",
       "PackagePath": "staticwebassets\\images\\pizzas\\cheese.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\images\\pizzas\\hawaiian.jpg",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\images\\pizzas\\couch-solid.svg",
+      "PackagePath": "staticwebassets\\images\\pizzas\\couch-solid.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\images\\pizzas\\hawaiian.jpg",
       "PackagePath": "staticwebassets\\images\\pizzas\\hawaiian.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\images\\pizzas\\margherita.jpg",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\images\\pizzas\\icon-512.png",
+      "PackagePath": "staticwebassets\\images\\pizzas\\icon-512.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\images\\pizzas\\laptop-medical-solid.svg",
+      "PackagePath": "staticwebassets\\images\\pizzas\\laptop-medical-solid.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\images\\pizzas\\lightbulb-regular.svg",
+      "PackagePath": "staticwebassets\\images\\pizzas\\lightbulb-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\images\\pizzas\\margherita.jpg",
       "PackagePath": "staticwebassets\\images\\pizzas\\margherita.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\images\\pizzas\\meaty.jpg",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\images\\pizzas\\meaty.jpg",
       "PackagePath": "staticwebassets\\images\\pizzas\\meaty.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\images\\pizzas\\mushroom.jpg",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\images\\pizzas\\mushroom.jpg",
       "PackagePath": "staticwebassets\\images\\pizzas\\mushroom.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\images\\pizzas\\pepperoni.jpg",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\images\\pizzas\\pepperoni.jpg",
       "PackagePath": "staticwebassets\\images\\pizzas\\pepperoni.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\images\\pizzas\\salad.jpg",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\images\\pizzas\\rocketchat.svg",
+      "PackagePath": "staticwebassets\\images\\pizzas\\rocketchat.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\images\\pizzas\\salad.jpg",
       "PackagePath": "staticwebassets\\images\\pizzas\\salad.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\wwwroot\\index.html",
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\images\\pizzas\\shield-halved-solid.svg",
+      "PackagePath": "staticwebassets\\images\\pizzas\\shield-halved-solid.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\images\\pizzas\\square-up-right-solid.svg",
+      "PackagePath": "staticwebassets\\images\\pizzas\\square-up-right-solid.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\images\\pizzas\\wifi-solid.svg",
+      "PackagePath": "staticwebassets\\images\\pizzas\\wifi-solid.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

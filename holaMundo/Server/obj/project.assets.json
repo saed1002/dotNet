@@ -4199,11 +4199,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Server\\holaMundo.Server.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Server\\holaMundo.Server.csproj",
       "projectName": "holaMundo.Server",
-      "projectPath": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Server\\holaMundo.Server.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Server\\holaMundo.Server.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Server\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4225,11 +4225,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\holaMundo.Client.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Client\\holaMundo.Client.csproj"
+            "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\holaMundo.Client.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Client\\holaMundo.Client.csproj"
             },
-            "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Shared\\holaMundo.Shared.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Shared\\holaMundo.Shared.csproj"
+            "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Shared\\holaMundo.Shared.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Shared\\holaMundo.Shared.csproj"
             }
           }
         }

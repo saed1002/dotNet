@@ -10,9 +10,6 @@
                     <div class="pizza-info">
                         <span class="title">@Special.Name</span>
                         @Special.Description
-                        <span class="price">
-                            @Special.GetFormattedBasePrice()
-                        </span>
                     </div>
                 </li>
             }
@@ -20,7 +17,7 @@
     </ul>
 </div>
 @if(ShowingConfigureDialog){
-    <ConfigurePizzaDialog Pizza="ConfiguringPizza"/>
+    <ConfigurePizzaDialog Pizza="ConfiguringPizza" />
 }
 @code {
     List<PizzaSpecial> Specials;
@@ -30,12 +27,19 @@
     {
         Specials = await HttpClient.GetFromJsonAsync<List<PizzaSpecial>>("specials");
     }
-    void ShowConfigurePizzaDialog(PizzaSpecial special) { 
-        ConfiguringPizza = new Pizza(){ 
-            Special = special,
-            SpecialId = special.Id,
-            Size = Pizza.DefaultSize,
-            Toppings = new List<PizzaTopping>(),}; 
-            ShowingConfigureDialog = true; }
+    void ShowConfigurePizzaDialog(PizzaSpecial special)
+    {
+        ConfiguringPizza = new Pizza()
+            {
+                Special = special,
+                SpecialId = special.Id,
+                Size = Pizza.DefaultSize,
+                Toppings = new List<PizzaTopping>(),
+            };
+        ShowingConfigureDialog = true;
+    }
+ 
+
+ 
 }
 }

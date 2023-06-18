@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = holaMundo.Shared
-build_property.ProjectDir = C:\Users\LENOVO\source\repos\holaMundo\holaMundo\Shared\
+build_property.ProjectDir = C:\Users\LENOVO\source\repos\dotNet\holaMundo\Shared\

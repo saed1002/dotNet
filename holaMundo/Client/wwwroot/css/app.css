@@ -87,7 +87,7 @@ body {
 }
 
     .pizza-cards > li {
-        height: 10rem;
+        height: 18rem;
         position: relative;
         background-size: cover;
         border-radius: 0.5rem;
@@ -189,7 +189,7 @@ body {
 
 .top-bar {
     height: 5rem;
-    background-color: rgb(192,0,0);
+    background-color: #0f213a;
     background-image: linear-gradient(rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.25) 25%,rgba(0,0,0,0) 70%);
     display: flex;
     align-items: stretch;
@@ -209,7 +209,7 @@ body {
 
     .logo > img {
         margin-right: 3rem;
-        width: 9rem;
+        width: 12rem;
     }
 
 .nav-tab {
@@ -258,7 +258,6 @@ body {
     height: 0px;
     border-left: 0.6rem solid transparent;
     border-right: 0.6rem solid transparent;
-    border-top: 1rem solid rgb(205,51,51);
 }
 
 form {
@@ -312,7 +311,7 @@ form {
 }
 
 .dialog-title {
-    background-color: #444;
+    background-color: #0f213a;
     color: #fff2cc;
     padding: 1.3rem 2rem;
 }
@@ -370,7 +369,7 @@ form {
 
 .dialog .topping {
     display: inline-block;
-    background-color: #a04343;
+    background-color: #0f213a;
     color: white;
     padding: 0.2rem 1rem;
     border-radius: 2rem;
@@ -481,3 +480,99 @@ input[type=range] {
         cursor: pointer;
         margin-top: 0;
     }
+
+
+footer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+    .footer-content h3 {
+        font-size: 2.1rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        line-height: 3rem;
+    }
+
+    .footer-content p {
+        max-width: 500px;
+        margin: 10px auto;
+        line-height: 28px;
+        font-size: 14px;
+        color: #cacdd2;
+    }
+
+
+.footer-bottom {
+    background: #0f213a;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+    .footer-bottom p {
+        float: left;
+        font-size: 14px;
+        word-spacing: 2px;
+        text-transform: capitalize;
+    }
+
+        .footer-bottom p a {
+            color: #44bae8;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+    .footer-bottom span {
+        text-transform: uppercase;
+        opacity: .4;
+        font-weight: 200;
+    }
+
+.footer-menu {
+    float: right;
+}
+
+    .footer-menu ul {
+        display: flex;
+    }
+
+        .footer-menu ul li {
+            padding-right: 10px;
+            display: block;
+        }
+
+            .footer-menu ul li a {
+                color: #cfd2d6;
+                text-decoration: none;
+            }
+
+                .footer-menu ul li a:hover {
+                    color: #27bcda;
+                }
+
+@media (max-width:500px) {
+    .footer-menu ul {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+.blazor-error-ui{
+    display:none
+}

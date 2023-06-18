@@ -1,29 +1,38 @@
-﻿<div class="dialog-container">
+﻿@inject HttpClient HttpClient;
+<div class="dialog-container">
 	<div class="dialog">
 		<div class="dialog-title">
 			<h2>@Pizza.Special.Name</h2>@Pizza.Special.Description
 		</div>
 			<form class="dialog-body">
-				<div>
-					<label>Tamaño:</label>
-					<input type ="range" 
-						min="@Pizza.MinimumSize" 
-						max="@Pizza.MaximumSize" 
-						step="@Pizza.IncrementSize" 
-						@bind="@Pizza.Size"
-					   @bind:event="oninput" />
-					<span class="size-label">@(Pizza.Size) cm ($@(Pizza.GetFormattedTotalPrice()))</span>
-				</div>
+					<div>
+						<label>Duda, Problema o Conflicto:</label>
+				<select class="custom-select" @onchange="ToppingSelected">
+					
+							 @for (var i = 0; i < Toppings.Count; i++)
+							 {
+								@if (Toppings[i].Type == Pizza.Special.Name)
+								{
+									<option value="@i">
+							 @(Toppings[i].Name)
+									 </option>
+								}
+							}
+							 </select>
+					</div>
+			<div class="toppings">
+				@foreach (var topping in Pizza.Toppings)
+				{
+					<div class="topping">
+						<span>
+							@topping.Topping.Description
+						</span>
+					</div>
+				}
+			</div>
 			</form>
 		<div class="dialog-buttons">
-			<button class="btn btn-secondary mr-auto">Cancelar</button>
-			<span class="mr-center">
-				Precio:
-				<span class="price">
-					@(Pizza.GetFormattedTotalPrice())
-				</span>
-			</span>
-			<button class="btn btn-success ml-auto">Ordenar ></button>
+			<button class="btn btn-secondary mr-auto">Cerrar</button>
 		</div>
 	</div>
 </div>
@@ -31,4 +40,27 @@
 @code {
 	[Parameter]
 	public Pizza Pizza { get; set; }
+	List<Topping> Toppings;
+
+	protected async override Task OnInitializedAsync()
+	{
+		Toppings = await HttpClient.GetFromJsonAsync<List<Topping>>("toppings");
+	}
+	void AddTopping(Topping topping)
+	{
+		Pizza.Toppings.Clear();
+		if (Pizza.Toppings.Find(pt => pt.Topping == topping) == null)
+		{
+			Pizza.Toppings.Add(new PizzaTopping() { Topping = topping });
+		}
+	}
+	void ToppingSelected(ChangeEventArgs e)
+	{
+		if (int.TryParse((string)e.Value, out var index) && index >= 0)
+		{
+			AddTopping(Toppings[index]);
+		}
+	}
+
+
 }

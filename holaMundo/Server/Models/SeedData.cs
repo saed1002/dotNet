@@ -2,82 +2,108 @@
 using System.Drawing;
 namespace holaMundo.Server.Models
 {
-    public static class SeedData{
-        public static void Initialize(PizzaStoreContext context) {
-            var Specials = new PizzaSpecial[]{
-                new PizzaSpecial{ 
-                    Name = "Pizza clásica de queso",
-                    Description = "Es de queso y delicioso. ¿Por qué no querrías una?",
-                    BasePrice = 189.99m,
-                    ImageUrl = "images/pizzas/cheese.jpg"
-                },
-                new PizzaSpecial(){
-                    Name = "Tocinator",
-                    Description = "Tiene TODO tipo de tocino",
-                    BasePrice = 227.99m,
-                    ImageUrl = "images/pizzas/bacon.jpg",
-                },
-                new PizzaSpecial(){
-                    Name = "Clásica de pepperoni",
-                    Description = "Es la pizza con la que creciste, ¡pero ardientemente deliciosa!",
-                    BasePrice = 199.50m,
-                    ImageUrl = "images/pizzas/pepperoni.jpg",
-                },
-                new PizzaSpecial(){
-                    Name = "Pollo búfalo",
-                    Description = "Pollo picante, salsa picante y queso azul, garantizado que entrarás en calor",
-                    BasePrice = 228.75m,
-                    ImageUrl = "images/pizzas/meaty.jpg",
-                },
-                new PizzaSpecial(){
-                    Name = "Amantes del champiñón",
-                    Description = "Tiene champiñones. ¿No es obvio?",
-                    BasePrice = 209.00m,
-                    ImageUrl = "images/pizzas/mushroom.jpg",
-                },
-                new PizzaSpecial(){
-                    Name = "Hawaiana",
-                    Description = "De piña, jamón y queso...",
-                    BasePrice = 190.25m,
-                    ImageUrl = "images/pizzas/hawaiian.jpg",},
-                new PizzaSpecial(){
-                    Name = "Delicia vegetariana",
-                    Description = "Es como una ensalada, pero en una pizza",
-                    BasePrice = 218.50m,
-                    ImageUrl = "images/pizzas/salad.jpg",
-                },
-                new PizzaSpecial(){
-                    Name = "Margarita",
-                    Description = "Pizza italiana tradicional con tomates y albahaca",
-                    BasePrice = 189.99m,
-                    ImageUrl = "images/pizzas/margherita.jpg",}};
-            var Toppings = new Topping[]{
-                new Topping{ Name = "Queso extra", Price = 47.50m},
-                new Topping{ Name = "Tocino de pavo",Price = 56.80m},
-                new Topping{ Name = "Tocino de jabalí",Price = 56.80m},
-                new Topping{ Name = "Tocino de ternera",Price = 56.80m}, 
-                new Topping{ Name = "Té y bollos",Price = 95.00m},
-                new Topping{ Name = "Bollos recién horneados",Price = 85.50m},
-                new Topping{ Name = "Pimiento",Price = 19.00m},
-                new Topping{ Name = "Cebolla",Price = 19.00m },
-                new Topping{Name = "Champiñones",Price = 19.00m},
-                new Topping{Name = "Pepperoni",Price = 19.00m},
-                new Topping{Name = "Salchicha de pato",Price = 60.80m},
-                new Topping{Name = "Albóndigas de venado",Price = 47.50m},
-                new Topping{Name = "Cubiertade langosta",Price = 1225.50m},
-                new Topping{Name = "Caviar de esturión",Price = 1933.25m},
-                new Topping{Name = "Corazones de alcachofa",Price = 64.60m},
-                new Topping{Name = "Tomates frescos",Price = 39.00m},
-                new Topping{Name = "Albahaca",Price = 39.00m},
-                new Topping{Name = "Filete",Price = 161.50m},
-                new Topping{Name = "Pimientos picantes",Price = 79.80m},
-                new Topping{Name = "Pollo búfalo",Price = 95.00m},
-                new Topping{Name = "Queso azul",Price = 47.50m},};
-            context.Toppings.AddRange(Toppings);
-            //context.Specials.AddRange(Specials);
+	public static class SeedData
+	{
+		public static void Initialize(PizzaStoreContext context)
+		{
+			var Specials = new PizzaSpecial[]{
+				new PizzaSpecial{
+					Name = "Internet",
+					Description = "Eventualidades que llegan a suceder al conectarse a internet",
+					BasePrice = 189.99m,
+					ImageUrl = "images/pizzas/wifi-solid.svg"
+				},
+				new PizzaSpecial(){
+					Name = "Plataformas Internas",
+					Description = "Eventualidades que llegan a suceder en las plataformas internas desarrolladas por la compañia",
+					BasePrice = 227.99m,
+					ImageUrl = "images/pizzas/lightbulb-regular.svg",
+				},
+				new PizzaSpecial(){
+					Name = "Equipo Electronico",
+					Description = "Eventualidades que llegan a suceder fisicamente en tu equipo asignado por la compañia",
+					BasePrice = 199.50m,
+					ImageUrl = "images/pizzas/laptop-medical-solid.svg",
+				},
+				new PizzaSpecial(){
+					Name = "Seguridad",
+					Description = "Eventualidades que llegan a suceder en el Sistema de Gestión de la Seguridad de la Información",
+					BasePrice = 228.75m,
+					ImageUrl = "images/pizzas/shield-halved-solid.svg",
+				},
+				new PizzaSpecial(){
+					Name = "Plataformas Externas",
+					Description = "Eventualidades que llegan a suceder en plataformas alojadas y creadas por proveedores",
+					BasePrice = 209.00m,
+					ImageUrl = "images/pizzas/square-up-right-solid.svg",
+				},
+				new PizzaSpecial(){
+					Name = "Activo Fijo",
+					Description = "Eventualidades con el activo fijo de la oficina",
+					BasePrice = 190.25m,
+					ImageUrl = "images/pizzas/couch-solid.svg",}};
+			var Toppings = new Topping[]{
+				new Topping{ 
+					Name = "Conexión lenta", 
+					Price = 47.50m, 
+					Description="Cuando tengas dicho problema, verficia que no estes descargando archivos pesados", 
+					Type="Internet"},
+				new Topping{ 
+					Name = "Sin internet", 
+					Price = 47.50m,
+					Description="Verifica que tu equipo este conectado via cable o wifi correctamente esa opcion la puedes visualizar donde se encuentra la fecha y hora del sistema", 
+					Type="Internet"},
+				new Topping{
+					Name = "No coincide la hora de tu sistema",
+					Price = 47.50m,
+					Description="Verifica que tu equipo tenga la hora del sistema correctamente sin atrasos o adelantos",
+					Type="Internet"},
+				new Topping{
+					Name = "No me permite acceso a la intranet",
+					Price = 47.50m,
+					Description="Verifica que en tu bandeja de correo tengas la invitación y correo de acceso a la plataforma",
+					Type="Plataformas Internas"},
+				new Topping{
+					Name = "No recuerdo mi nombre de usuario de la intranet",
+					Price = 47.50m,
+					Description="Recuerda que tu usuario es tu correo electronico",
+					Type="Plataformas Internas"},
+				new Topping{
+					Name = "Cuanto saldo tengo disponible en el celular asignado",
+					Price = 47.50m,
+					Description="Todos los colaboradores tienen un plan de 20GB, en caso de requerir mas datos se debera solicitar una nueva orden de compra",
+					Type="Equipo Electronico"},
+				new Topping{
+					Name = "Puedo usar el roaming de mi celular asignado",
+					Price = 47.50m,
+					Description="Todos los colaboradores tienen un plan de 20GB, en este caso no es posible por parte de proveedor por el momento",
+					Type="Equipo Electronico"},
+				new Topping{
+					Name = "Tarda mucho la bateria en cargar",
+					Price = 47.50m,
+					Description="Deberas de solicitar una orden de compra para compra de accesorios para tu equipo electronico",
+					Type="Equipo Electronico"},
+				new Topping{
+					Name = "Como se que los correos que me llegan no son pishing",
+					Price = 47.50m,
+					Description="la direccion de correo oficial de la compañia es @buzzsolutions.com, nunca enviaremos correos solicitando dinero",
+					Type="Seguridad"},
+				new Topping{
+					Name = "Como recuperar mi contraseña olvidad",
+					Price = 47.50m,
+					Description="Solicita una nueva enviando un correo a intranetsupport@buzzsolutions.com, debe de tener la contraseña 8 caracteres minimo, 1 caracter, 1 numero, 1 letra, 1 mayuscula",
+					Type="Seguridad"},
+				new Topping{
+					Name = "Como puede el cliente accesar a las oficinas",
+					Price = 47.50m,
+					Description="Se debe solicitar permiso a la area de seguridad enviando un correo seguridad@buzzsolutions.com",
+					Type="Seguridad"},
+			};
+			context.Toppings.AddRange(Toppings);
+			context.Specials.AddRange(Specials);
 			context.SaveChanges();
 		}
 
-}
+	}
 }
 

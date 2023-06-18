@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MENCnVVtG36qDzAy9AY94o5yHHJcoFg+uAUs1Vbo5SDRBwJQ0idMQWJnd0oJf0OaPjgofk6e57OhTKN7XRdVIw==",
+  "dgSpecHash": "Tq+fmP2ch0MyWU1c/R/Bds9/+KWOaYRgui2wCZt5gbsKYRX1aM7wv2GS6AkTkLBpX/p7zBmrI1sYq5xtAEuCWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\source\\repos\\holaMundo\\holaMundo\\Server\\holaMundo.Server.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\source\\repos\\dotNet\\holaMundo\\Server\\holaMundo.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
