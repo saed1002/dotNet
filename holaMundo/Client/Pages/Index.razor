@@ -16,8 +16,9 @@
         }
     </ul>
 </div>
-@if(ShowingConfigureDialog){
-    <ConfigurePizzaDialog Pizza="ConfiguringPizza" />
+
+@if (ShowingConfigureDialog) {
+    <ConfigurePizzaDialog Pizza="ConfiguringPizza" OnCancel="CancelConfigurePizzaDialog" />
 }
 @code {
     List<PizzaSpecial> Specials;
@@ -38,7 +39,10 @@
             };
         ShowingConfigureDialog = true;
     }
- 
+    void CancelConfigurePizzaDialog()
+    {
+        ShowingConfigureDialog = false;
+    }
 
  
 }
